@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.thyevolution.computerknowledgequiz.quizResultsActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/backgroundPicture"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/headlineStyle"
+            android:text="@string/quizResultEng"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            style="@style/enterNameStyle"
+            android:text="@string/youScored"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/enterNameStyle"/>
+
+        <TextView
+            android:id="@+id/impression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/enterNameStyle"/>
+
+        <Button
+            android:id="@+id/playAgainButton"
+            style="@style/nextContinueFinishButtonsStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="120dp"
+            android:text="@string/playAgain" />
+
+        <Button
+            android:id="@+id/toMainMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="40dp"
+            android:textSize="10sp"
+            android:layout_marginRight="120dp"
+            style="@style/nextContinueFinishButtonsStyle"
+            android:layout_gravity="center"
+            android:text="@string/mainMenu" />
+
+
+    </LinearLayout>
+</RelativeLayout>

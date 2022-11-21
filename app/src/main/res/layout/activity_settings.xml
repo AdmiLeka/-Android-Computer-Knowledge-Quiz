@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.thyevolution.computerknowledgequiz.settingsActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/backgroundPicture"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            style="@style/headlineStyle"/>
+
+
+        <Button
+            android:id="@+id/changeThemeBtn"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/themeSettingsButton"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/changeLanguageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/mainMenuAndSettingsButtonsStyle"
+            android:layout_gravity="center"
+            android:text="@string/changeLanguage" />
+
+<!--        <Button-->
+<!--            android:id="@+id/soundBtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:backgroundTint="@color/black"-->
+<!--            android:fontFamily="@font/comfortaa"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="24sp"-->
+<!--            android:text="@string/soundEng" />-->
+
+        <Button
+            android:id="@+id/mainMenuBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/mainMenuAndSettingsButtonsStyle"
+            android:layout_gravity="center"
+            android:text="@string/backtoMainMenu" />
+
+    </LinearLayout>
+</RelativeLayout>

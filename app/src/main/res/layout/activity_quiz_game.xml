@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.thyevolution.computerknowledgequiz.quizGameActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/backgroundPicture"/>
+
+    <TextView
+        android:id="@+id/questionText"
+        style="@style/quizQuestionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rgQuizChoices"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp">
+
+            <RadioButton
+                android:id="@+id/a1Btn"
+                style="@style/quizRbStyle"
+                android:text="Application Data System Logger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="25dp" />
+
+            <RadioButton
+                android:id="@+id/a2Btn"
+                style="@style/quizRbStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="25dp"/>
+
+            <RadioButton
+                android:id="@+id/a3Btn"
+                style="@style/quizRbStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="25dp" />
+
+            <RadioButton
+                android:id="@+id/a4Btn"
+                style="@style/quizRbStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="25dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/nextQuestionBtn"
+            style="@style/nextContinueFinishButtonsStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/nextBtn" />
+
+    </LinearLayout>
+
+</RelativeLayout>

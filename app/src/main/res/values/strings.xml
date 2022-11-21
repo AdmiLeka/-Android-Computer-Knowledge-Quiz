@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Computer Knowledge Quiz</string>
+    <string name="mainMenu">MAIN MENU</string>
+    <string name="backtoMainMenu">TO MAIN MENU</string>
+    <string name="settings">SETTINGS</string>
+    <string name="startQuiz">START QUIZ</string>
+    <string name="exit">EXIT APP</string>
+    <string name="changeLanguage">CHANGE LANGUAGE</string>
+    <string name="soundEng">SOUND SETTINGS</string>
+    <string name="lvlSelEng">LEVEL SELECTION</string>
+    <string name="beginnerEng">Beginner</string>
+    <string name="intermediateEng">Intermediate</string>
+    <string name="advanced">Advanced</string>
+    <string name="continuee">CONTINUE</string>
+    <string name="review">LEAVE A REVIEW</string>
+    <string name="nextBtn">NEXT</string>
+    <string name="language">LANGUAGE</string>
+    <string name="finish">FINISH</string>
+    <string name="save">SAVE</string>
+    <string name="quizResultEng">QUIZ RESULTS</string>
+    <string name="youScored">You scored:</string>
+    <string name="playAgain">PLAY AGAIN</string>
+    <string name="toastSelectLevel">Please select a difficulty</string>
+    <string name="toastSelectAnswer">Please choose an answer</string>
+    <string name="toastChooseLanguage">Please choose a language</string>
+    <string name="toastDoubleBack">Press back again to exit</string>
+    <string name="english">English 🇬🇧</string>
+    <string name="german">German 🇩🇪</string>
+    <string name="albanian">Albanian 🇦🇱</string>
+    <string name="greek">Greek 🇬🇷</string>
+
+    <!-- Toast resources -->
+    <string name="difficultyToast">Please select difficulty</string>
+    <string name="languageChoiceToast">Please select a language</string>
+
+</resources>

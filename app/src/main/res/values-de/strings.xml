@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Computer Knowledge Quiz</string>
+    <string name="mainMenu">HAUPTMENÜ</string>
+    <string name="backtoMainMenu">ZUM HAUPTMENÜ</string>
+    <string name="settings">EINSTELLUNGEN</string>
+    <string name="startQuiz">QUIZ STARTEN</string>
+    <string name="exit">APP BEENDEN</string>
+    <string name="changeLanguage">SPRACHE ÄNDERN</string>
+    <string name="soundEng">TONEINSTELLUNGEN</string>
+    <string name="lvlSelEng">STUFENAUSWAHL</string>
+    <string name="beginnerEng">Anfänger</string>
+    <string name="intermediateEng">Dazwischenliegender</string>
+    <string name="advanced">Fortschrittlich</string>
+    <string name="continuee">WEITER</string>
+    <string name="review">BEWERTEN SIE UNS</string>
+    <string name="nextBtn">WEITER</string>
+    <string name="language">SPRACHE</string>
+    <string name="finish">ENDE</string>
+    <string name="save">SPEICHERN</string>
+    <string name="quizResultEng">QUIZ ERGEBNISS</string>
+    <string name="youScored">Dein score:</string>
+    <string name="playAgain">NOCHMAL SPIELEN</string>
+    <string name="toastSelectLevel">Bitte Schwierigkeitsgrad auswählen</string>
+    <string name="toastSelectAnswer">Bitte Antwort auswählen</string>
+    <string name="toastChooseLanguage">Bitte Sprache auswählen</string>
+    <string name="toastDoubleBack">Zum Beenden erneut zurückdrücken</string>
+    <string name="english">Englisch 🇬🇧</string>
+    <string name="german">Deutch 🇩🇪</string>
+    <string name="albanian">Albanisch 🇦🇱</string>
+    <string name="greek">Griechisch 🇬🇷</string>
+    
+    <!-- Toast resources -->
+    <string name="difficultyToast">Bitte Schwierigkeitsgrad auswählen</string>
+    <string name="languageChoiceToast">Bitte wählen Sie eine Sprache aus</string>
+
+</resources>

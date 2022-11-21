@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.thyevolution.computerknowledgequiz.changeLanguage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/backgroundPicture"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/headlineStyle"
+            android:text="@string/changeLanguage"/>
+
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/rgLanguageChoices">
+
+
+
+            <RadioButton
+                android:id="@+id/rbEng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                style="@style/quizSelectionRbStyle"
+                android:text="@string/english"/>
+
+            <RadioButton
+                android:id="@+id/rbGer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                style="@style/quizSelectionRbStyle"
+                android:text="@string/german"/>
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rbAlb"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                style="@style/quizSelectionRbStyle"-->
+<!--                android:text="@string/albanian"/>-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rbGr"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                style="@style/quizSelectionRbStyle"-->
+<!--                android:text="@string/greek"/>-->
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/saveLangBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            style="@style/nextContinueFinishButtonsStyle"
+            android:layout_gravity="center"
+            android:text="@string/save" />
+    </LinearLayout>
+
+
+</RelativeLayout>
