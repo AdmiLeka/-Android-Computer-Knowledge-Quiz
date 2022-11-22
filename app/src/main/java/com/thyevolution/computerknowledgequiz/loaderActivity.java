@@ -9,8 +9,6 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-
-import com.thyevolution.computerknowledgequiz.R;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -13,9 +13,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
-
-import com.thyevolution.computerknowledgequiz.R;
-
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {

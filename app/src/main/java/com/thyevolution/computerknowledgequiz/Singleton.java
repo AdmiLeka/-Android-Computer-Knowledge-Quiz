@@ -2,7 +2,6 @@ package com.thyevolution.computerknowledgequiz;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Singleton extends AppCompatActivity{
