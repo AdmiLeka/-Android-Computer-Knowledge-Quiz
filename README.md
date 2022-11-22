@@ -44,6 +44,7 @@ Collections.shuffle(buttonList);
                 default:
                     correctButton = buttonList.get(3);
                     break;
+            }
                     
 ```
 
