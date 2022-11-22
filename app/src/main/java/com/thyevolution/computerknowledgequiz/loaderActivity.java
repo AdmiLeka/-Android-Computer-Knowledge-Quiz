@@ -98,19 +98,19 @@ public class loaderActivity extends AppCompatActivity {
 
     //A method to copy the pre-built SQLite database from the assets directory to the device's internal storage.
     private void copyDataBase(String dbname) throws IOException {
-        // Open your local db as the input stream
+        // Opening local database as the input stream
         InputStream myInput = this.getAssets().open(dbname);
-        // Path to the just created empty db
+        // Path to the just created empty database
         File outFileName = this.getDatabasePath(dbname);
-        // Open the empty db as the output stream
+        // Open the empty database as the output stream
         OutputStream myOutput = new FileOutputStream(outFileName);
-        // transfer bytes from the inputfile to the outputfile
+        // Transferring bytes from the input file to the output file
         byte[] buffer = new byte[1024];
         int length;
         while ((length = myInput.read(buffer)) > 0) {
             myOutput.write(buffer, 0, length);
         }
-        // Close the streams
+        // Closing the streams
         myOutput.flush();
         myOutput.close();
         myInput.close();
