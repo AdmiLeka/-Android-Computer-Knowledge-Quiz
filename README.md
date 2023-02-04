@@ -1,6 +1,7 @@
 # Computer-Knowledge-Quiz-Android-Studio-
 An android trivia game regarding computer knowledge.
 
+[Get it in PlayStore](https://play.google.com/store/apps/details?id=com.thyevolution.computerknowledgequiz&hl=en_US&gl=US)
 
 This are the problems I encountered and how I solved them: 
 
