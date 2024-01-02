@@ -13,9 +13,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.thyevolution.computerknowledgequiz.R;
-
 import java.util.ArrayList;
 import java.util.Collections;
 

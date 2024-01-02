@@ -15,8 +15,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.thyevolution.computerknowledgequiz.R;
-
 import java.util.Locale;
 
 public class changeLanguage extends AppCompatActivity {

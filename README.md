@@ -1,25 +1,26 @@
 # Computer-Knowledge-Quiz-Android-Studio-
 An android trivia game regarding computer knowledge.
 
+[Get it in PlayStore](https://play.google.com/store/apps/details?id=com.thyevolution.computerknowledgequiz&hl=en_US&gl=US)
 
 This are the problems I encountered and how I solved them: 
 
 In order to transport the pre-built SQLite database from the assets folder to the device's internal storage, I used this method: 
 ```
 private void copyDataBase(String dbname) throws IOException {
-        // Open your local db as the input stream
+        // Opening local database as the input stream
         InputStream myInput = this.getAssets().open(dbname);
-        // Path to the just created empty db
+        // Path to the just created empty database
         File outFileName = this.getDatabasePath(dbname);
-        // Open the empty db as the output stream
+        // Opening the empty database as the output stream
         OutputStream myOutput = new FileOutputStream(outFileName);
-        // transfer bytes from the inputfile to the outputfile
+        // Transferring bytes from the input file to the output file
         byte[] buffer = new byte[1024];
         int length;
         while ((length = myInput.read(buffer)) > 0) {
             myOutput.write(buffer, 0, length);
         }
-        // Close the streams
+        // Closing the streams
         myOutput.flush();
         myOutput.close();
         myInput.close();
@@ -44,6 +45,7 @@ Collections.shuffle(buttonList);
                 default:
                     correctButton = buttonList.get(3);
                     break;
+            }
                     
 ```
 

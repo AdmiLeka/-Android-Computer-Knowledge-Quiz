@@ -9,9 +9,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
-
-import com.thyevolution.computerknowledgequiz.R;
-
 public class settingsActivity extends AppCompatActivity {
 
     private Button changeThemeBtn, changeLanguageBtn, mainMenuBtn;
